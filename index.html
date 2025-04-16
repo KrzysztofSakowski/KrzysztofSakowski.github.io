@@ -1,1 +1,167 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krzysztof Sakowski - Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Krzysztof Sakowski</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li style="display: none;"><a href="#skills">Skills</a></li>
+                <li style="display: none;"><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Krzysztof Sakowski</span></h1>
+            <h2>Software Developer</h2>
+            <p>I usually elegant solutions to complex problems,<br/> but in this case I simple asked Cursor to generete this website for me.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary" style="display: none;">View My Work</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Experienced Senior Software Engineer transitioning from a strong foundation in embedded C++ to impactful roles in web and SaaS development. Proficient in Python, C++, GCP, and Apache Airflow. Proven ability to design and implement key features, such as ML pipelines and dynamic data connections. Dedicated to collaborative problem-solving.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/blue_background.jpg" alt="Krzysztof Sakowski">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills" style="display: none;">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>RESTful APIs</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>CI/CD</li>
+                        <li>Agile/Scrum</li>
+                        <li>Test-Driven Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects" style="display: none;">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                    <h3>Project Name 1</h3>
+                    <p>Description of your first project. Explain what it does and what technologies you used.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                    <h3>Project Name 2</h3>
+                    <p>Description of your second project. Explain what it does and what technologies you used.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                    <h3>Project Name 3</h3>
+                    <p>Description of your third project. Explain what it does and what technologies you used.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item" style="display: none;">
+                        <i class="fas fa-envelope"></i>
+                        <p>your.email@example.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <p>
+                            <a href="https://github.com/KrzysztofSakowski" target="_blank">
+                                <i class="fab fa-github"></i>
+                                github.com/KrzysztofSakowski
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <p>
+                            <a href="https://www.linkedin.com/in/krzysztof-sakowski/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                                linkedin.com/in/krzysztof-sakowski
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <form class="contact-form" style="opacity: 0.5; pointer-events: none;">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 - <span id="currentYear"></span> Krzysztof Sakowski. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
